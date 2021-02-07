@@ -9,7 +9,7 @@ def party(x_home,y_home,x_event,y_event,st_event,st_prep,d_event,d_prep):
     return 'YES'
 
 if __name__ == '__main__':
-    with open('party.in') as f:
+    with open('Problem L/party.in') as f:
         _ = list(map(int,f.readline().split()))
         x_home = _[0]
         y_home = _[1]

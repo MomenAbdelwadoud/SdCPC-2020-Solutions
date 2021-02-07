@@ -20,7 +20,7 @@ def pills(n,T,ps,primes,p,table):
 
 
 if __name__ == '__main__':
-    with open('pills.in') as f:
+    with open('Problem I/pills.in') as f:
         _ = list(map(int,f.readline().split()))
         n = _[0]
         T = _[1]

@@ -13,7 +13,7 @@ def vowels(s):
 
 
 if __name__ == "__main__":
-    with open('vowels.in') as f:
+    with open('Problem B/vowels.in') as f:
         n = int(f.readline())
         s = f.readline().strip('\n')
         print(vowels(s))

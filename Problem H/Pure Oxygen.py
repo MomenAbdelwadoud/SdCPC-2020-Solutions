@@ -15,7 +15,7 @@ def oxy(n,arr):
     return p
 
 if __name__ == '__main__':
-    with open('oxy.in') as f:
+    with open('Problem H/oxy.in') as f:
         n = int(f.readline())
         arr = list(map(int,f.readline().split()))
         print(oxy(n,arr))

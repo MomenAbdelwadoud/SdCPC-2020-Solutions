@@ -15,7 +15,7 @@ def med_1(s,qu):
 
 
 if __name__ == '__main__':
-    with open('median.in') as f:
+    with open('Problem K/median.in') as f:
         t = int(f.readline())
         for j in range(t):
             s = f.readline()[:-1]

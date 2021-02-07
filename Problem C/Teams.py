@@ -10,7 +10,7 @@ def teams(n,s,arr):
 
 
 if __name__ == '__main__':
-    with open('teams.in') as f:
+    with open('Problem C/teams.in') as f:
         t = int(f.readline())
         for i in range(t):
             _ = list(map(int,f.readline().split()))

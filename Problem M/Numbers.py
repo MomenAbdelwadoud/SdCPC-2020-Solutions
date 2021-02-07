@@ -9,7 +9,7 @@ def nums(x,y):
         return 1 + (y - x - 1) / 3
 
 if __name__ == '__main__':
-    with open('numbers.in') as f:
+    with open('Problem M/numbers.in') as f:
         t = int(f.readline())
         for j in range(t):
             _ = list(map(int,f.readline().split()))

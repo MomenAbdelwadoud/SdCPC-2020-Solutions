@@ -7,7 +7,7 @@ def grid(n,strs):
     return 'YES'
 
 if __name__ == '__main__':
-    with open('equals.in') as f:
+    with open('Problem D/equals.in') as f:
         t = int(f.readline())
         for j in range(t):
             n = int(f.readline())
